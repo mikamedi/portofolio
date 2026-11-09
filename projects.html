@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Mika Medi Ariansyah</title>
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Mika<span>.</span></a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 4: PROJECTS -->
+    <section class="projects section standalone-page" id="projects">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2><span>Projects</span></h2>
+                <p>Portofolio proyek bisnis, pemasaran, dan kerja sama yang telah saya kerjakan</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1: ECLIVAL 2026 -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-1.jpg" alt="ECLIVAL 2026 Project Cover">
+                        <div class="project-badge">
+                            <i class="fa-solid fa-handshake-simple"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Sponsorship & Event</span>
+                        <h3>ECLIVAL 2026</h3>
+                        <p>Strategi kolaborasi merek dan akuisisi sponsorship untuk mendukung keberhasilan acara skala besar.</p>
+                        <button class="btn-text btn-modal" data-project="1">View Project Details <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Branding.In -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-2.jpg" alt="Branding.In Project Cover">
+                        <div class="project-badge">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Digital Marketing</span>
+                        <h3>Branding.In</h3>
+                        <p>Inisiatif agensi pemasaran digital yang berfokus pada strategi kampanye dan ekspansi brand awareness.</p>
+                        <button class="btn-text btn-modal" data-project="2">View Project Details <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Tabee Foodism -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-3.jpg" alt="Tabee Foodism Project Cover">
+                        <div class="project-badge">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Social Media Management</span>
+                        <h3>Tabee Foodism</h3>
+                        <p>Manajemen konten media sosial dan perencanaan strategi interaksi pelanggan untuk industri F&B.</p>
+                        <button class="btn-text btn-modal" data-project="3">View Project Details <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project Card 4: Poo Store -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-4.jpg" alt="Poo Store Project Cover">
+                        <div class="project-badge">
+                            <i class="fa-solid fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">E-Commerce & Retail</span>
+                        <h3>Online Business – Poo Store</h3>
+                        <p>Pengembangan identitas toko online, penataan produk, dan optimasi penjualan melalui saluran digital.</p>
+                        <button class="btn-text btn-modal" data-project="4">View Project Details <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Mika Medi Ariansyah. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- PROJECT MODAL -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <h3 id="modal-title">Project Detail</h3>
+            <p id="modal-category" class="modal-cat-tag">Category</p>
+            <p id="modal-desc">Detail deskripsi proyek akan muncul di sini.</p>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

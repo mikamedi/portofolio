@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Mika Medi Ariansyah</title>
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Mika<span>.</span></a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: HERO / HOME -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <span class="badge">Welcome to my portfolio</span>
+                <h1 class="hero-name">Mika Medi Ariansyah</h1>
+                <h2 class="hero-headline">Building Connections, <span>Creating Opportunities.</span></h2>
+                <p class="hero-desc">
+                    Saya merupakan mahasiswa Digital Commerce and Supply Chain di Multimedia Nusantara Polytechnic yang memiliki ketertarikan mendalam dalam bidang bisnis, pemasaran, dan pengembangan kerja sama strategis.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">Explore My Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="CV - PART TIME.pdf" target="_blank" class="btn btn-outline">Lihat CV <i class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-image reveal">
+                <div class="image-wrapper">
+                    <div class="profile-avatar">
+                        <img src="Foto-Mika.jpeg" alt="Mika Medi Ariansyah">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Mika Medi Ariansyah. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- PROJECT MODAL -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <h3 id="modal-title">Project Detail</h3>
+            <p id="modal-category" class="modal-cat-tag">Category</p>
+            <p id="modal-desc">Detail deskripsi proyek akan muncul di sini.</p>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
