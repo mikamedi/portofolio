@@ -90,23 +90,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectDetailsData = {
         '1': {
             title: 'ECLIVAL 2026',
-            category: 'Sponsorship & Brand Collaboration',
-            desc: 'Proyek perencanaan dan akuisisi sponsorship untuk event ECLIVAL 2026. Meliputi penyusunan deck proposal eksklusif, riset mitra potensial, negosiasi benefit merek, hingga pelaksanaan kesepakatan kerjasama.'
+            category: 'Sponsorship & Event Collaboration',
+            desc: 'Proyek perencanaan dan akuisisi sponsorship untuk event ECLIVAL 2026. Meliputi penyusunan deck proposal eksklusif, riset mitra potensial, negosiasi benefit merek, hingga pelaksanaan kesepakatan kerja sama strategis.'
         },
         '2': {
-            title: 'Branding.In',
-            category: 'Digital Marketing Agency',
-            desc: 'Pengembangan konsep dan strategi agensi pemasaran digital. Fokus pada peningkatan brand awareness klien melalui optimasi saluran digital, strategi konten target, dan analisis kinerja kampanye.'
+            title: 'PBL Digital Marketing',
+            category: 'Project Based Learning & Campaign Strategy',
+            desc: 'Proyek berbasis studi kasus pemasaran digital. Melibatkan analisis segmen audiens, perancangan materi promosi, eksekusi kampanye di berbagai platform digital, serta evaluasi data metrik keterlibatan (engagement metric).'
         },
         '3': {
-            title: 'Tabee Foodism',
-            category: 'Social Media Management',
-            desc: 'Pengelolaan akun media sosial untuk brand kuliner Tabee Foodism. Meliputi perencanaan kalender konten, copywriting, strategi keterlibatan pelanggan (engagement), dan promosi visual.'
+            title: 'Branding.In',
+            category: 'Digital Marketing & Brand Agency',
+            desc: 'Pengembangan konsep dan strategi agensi pemasaran digital. Fokus pada peningkatan brand awareness klien melalui penyusunan panduan identitas merek, strategi konten yang terarah, serta penyelarasan pesan pemasaran.'
         },
         '4': {
-            title: 'Online Business – Poo Store',
-            category: 'E-Commerce & Retail Strategy',
-            desc: 'Pengelolaan penuh toko online independen Poo Store. Mengintegrasikan rantai pasokan produk, penataan catalog online, layanan pelanggan instan, serta strategi retensi pembeli.'
+            title: 'Business Owner – Poo Store',
+            category: 'E-Commerce & Retail Operation',
+            desc: 'Pengelolaan operasional toko online independen Poo Store secara menyeluruh. Mengintegrasikan rantai pasokan produk, strategi pemasaran media sosial, pencatatan arus kas, serta peningkatan retensi pembeli.'
+        },
+        '5': {
+            title: 'Implementasi Odoo ERP',
+            category: 'Digital Commerce & Supply Chain System',
+            desc: 'Proyek analisis dan integrasi modul Odoo Enterprise Resource Planning (ERP). Mengoptimalkan alur kerja manajemen inventaris, pemrosesan pesanan pembelian/penjualan, integrasi database, dan otomatisasi laporan operasional.'
+        },
+        '6': {
+            title: 'Pengembangan Bisnis Kreatif',
+            category: 'Creative Business Innovation & Strategy',
+            desc: 'Perancangan model bisnis kreatif berbasis ideasi inovatif. Melakukan pengujian riset pasar, pemetaan proposisi nilai unik (Unique Value Proposition), strategi kemasan visual, serta eksekusi peluncuran produk.'
         }
     };
 
